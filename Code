@@ -56,7 +56,7 @@ bool loadMedia()
     bool success = true;
     
     //Load splash image
-    gHelloWorld = SDL_LoadBMP( "/Users/samcholo/Desktop/SDL_TUTORIAL/SDL2.bmp" );
+    gHelloWorld = SDL_LoadBMP( "/Users/samcholo/Desktop/SDL_TUTORIAL/SDL2_converted.bmp" );
     if( gHelloWorld == NULL )
     {
         printf( "Unable to load image %s! SDL Error: %s\n", "02_getting_an_image_on_the_screen/hello_world.bmp", SDL_GetError() );
